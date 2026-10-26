@@ -1,0 +1,26 @@
+# Secrets — never commit keys or credentials
+.env
+.env.*
+*.pem
+*api-key*
+*secret*
+secrets/
+keys/
+
+# Internal test assets (family photos stay off GitHub)
+test-assets/
+test_photos/
+test-data/photos/
+
+# Dependencies and build output
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+.next/
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
