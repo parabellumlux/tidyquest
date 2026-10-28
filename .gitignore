@@ -24,3 +24,20 @@ build/
 .DS_Store
 .idea/
 .vscode/
+
+# Hackathon working/output dirs (never published)
+out/
+demo/
+submission/
+screenshots/
+
+# Model weights and built binaries
+*.pt
+*.apk
+
+# Flutter tooling state
+.dart_tool/
+
+# Root-level internal test photos
+test_*.jpg
+test_*.png
